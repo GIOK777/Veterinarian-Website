@@ -6,10 +6,13 @@ body {
 
 header {
   width: 100%;
+  height: 100px;
   position: fixed;
   top: 0;
   left: 0;
   background-color: #FEF7ED;
+  padding: 0 80px;
+  box-sizing: border-box;
 }
 header nav {
   width: 100%;
