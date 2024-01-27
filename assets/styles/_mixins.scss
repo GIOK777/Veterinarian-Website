@@ -1,0 +1,45 @@
+@use "variables" as*;
+
+@mixin flex($jc: center, $ai: center, $gap: 50px) {
+    display: flex;
+    justify-content: $jc;
+    align-items: $ai;
+    gap: $gap;
+}
+
+@mixin button($w: 108px, $h: 40px, $bc: $primary-color, 
+$border: none, $color: $white-color, $ff: $primary-font,
+$fz: 14px, $fw: 300, $td: none) {
+    width: $w;
+    height: $h;
+    background-color: $bc;
+    border: $border;
+
+    a {
+        color: $color;
+        font-family: $ff;
+        font-size: $fz;
+        font-weight: $fw;
+        text-decoration: $td;
+    }
+}
+
+@mixin services () {
+    width: 250px;
+    height: 400px;
+    h4 {
+        font-family: $primary-font;
+        font-size: 24px;
+        font-weight: 600;
+        color: $primary-color;
+        margin-top: 30px;
+    }
+    p {
+        font-size: 16px;
+        font-weight: 400;
+        color: $primary-color; 
+    }
+    img {
+        border-radius: 50%;
+    }
+}
