@@ -9,7 +9,7 @@ body {
 
 header {
     width: 100%;
-    height: 100px;
+    // height: 100px;
     position: fixed;
     top: 0;
     left: 0;
@@ -21,6 +21,29 @@ header {
         width: 100%;
 
         div.container-fluid {
+
+            i {
+                font-size: 25px;
+                padding: 10px;
+                color: $primary-color;
+
+            }
+
+            a.navbar-brand {
+                font-size: 25px;
+                font-weight: 600;
+                color: $primary-color;
+            }
+            a.nav-link {
+                color: $primary-color;
+                font-size: 30px;
+                font-family: $primary-font;
+                
+                &.active {
+                    color: $active-color;
+                }
+                
+            }
             div.collapse {
                 justify-content: flex-end;
             }
