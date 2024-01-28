@@ -203,5 +203,118 @@ main section.services aside.flex-center div.grooming p {
 main section.services aside.flex-center div.grooming img {
   border-radius: 50%;
 }
+main section.clients {
+  padding: 50px;
+  box-sizing: border-box;
+}
+main section.clients h2 {
+  text-align: center;
+  font-size: 62px;
+  color: #3A54B4;
+  font-weight: 700;
+}
+main section.clients aside {
+  padding-top: 80px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+main section.clients aside img {
+  max-width: 100%;
+  padding: 10px;
+}
+main section.coments h2 {
+  text-align: center;
+  font-size: 62px;
+  color: #3A54B4;
+  font-weight: 700;
+  margin-top: 100px;
+}
+main section.coments aside.flex-center div.coment {
+  width: 300px;
+  height: 250px;
+  text-align: center;
+}
+main section.coments aside.flex-center div.coment h4 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  color: #3A54B4;
+  padding: 100px 0 30px;
+}
+main section.coments aside.flex-center div.coment p {
+  font-size: 14px;
+  font-weight: 300;
+  color: #3A54B4;
+}
+main section.coments aside.flex-center div.coment span {
+  font-size: 15px;
+  font-weight: 500;
+  color: #3A54B4;
+}
+main section.contact {
+  background-color: #3A54B4;
+}
+main section.contact h2 {
+  text-align: center;
+  font-size: 62px;
+  color: #FFFFFF;
+  font-weight: 700;
+  margin-top: 100px;
+}
+main section.contact div.info {
+  width: 160px;
+  height: 250px;
+  text-align: center;
+}
+main section.contact div.info h4 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: #FFFFFF;
+  padding: 100px 0 10px;
+}
+main section.contact div.info p {
+  font-size: 14px;
+  font-weight: 300;
+  color: #FFFFFF;
+}
+main section.contact div.info span {
+  font-size: 15px;
+  font-weight: 500;
+  color: #3A54B4;
+}
+main section.contact form#contact-form {
+  max-width: 800px;
+}
+main section.contact form#contact-form div.row div.col-md-6 input {
+  border-radius: 0%;
+  border: none;
+  border-bottom: 1px solid #FFFFFF;
+  background: none;
+}
+main section.contact form#contact-form div.row div.col-md-6 input::placeholder {
+  color: #FFFFFF;
+  padding-left: 15px;
+  font-size: 14px;
+  font-weight: 300;
+}
+main section.contact form#contact-form div.row div.col-md-12 textarea {
+  height: 125px;
+  border-radius: 0%;
+  border: none;
+  background: none;
+  border-bottom: 1px solid #FFFFFF;
+}
+main section.contact form#contact-form div.row div.col-md-12 textarea::placeholder {
+  color: #FFFFFF;
+  font-size: 10px;
+  padding-left: 15px;
+}
+main section.contact form#contact-form div.text-center.text-md-left a.btn.btn-primary {
+  width: 100%;
+  background: none;
+  border: none;
+}
 
 /*# sourceMappingURL=style.min.css.map */

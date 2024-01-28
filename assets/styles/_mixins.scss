@@ -7,6 +7,8 @@
     gap: $gap;
 }
 
+
+
 @mixin button($w: 108px, $h: 40px, $bc: $primary-color, 
 $border: none, $color: $white-color, $ff: $primary-font,
 $fz: 14px, $fw: 300, $td: none) {
@@ -23,6 +25,9 @@ $fz: 14px, $fw: 300, $td: none) {
         text-decoration: $td;
     }
 }
+
+
+
 
 @mixin services () {
     width: 250px;
@@ -41,5 +46,31 @@ $fz: 14px, $fw: 300, $td: none) {
     }
     img {
         border-radius: 50%;
+    }
+}
+
+
+
+@mixin coments-contact ($w:300px,$color:$primary-color,
+$pcolor:$primary-color, $h4fs:30px,$h4p:100px 0 30px) {
+    width: $w;
+    height: 250px;
+    text-align: center;
+    h4 {
+        font-family: $primary-font;
+        font-size: $h4fs;
+        font-weight: 600;
+        color: $color;
+        padding: $h4p;
+    }
+    p {
+        font-size: 14px;
+        font-weight: 300;
+        color: $pcolor; 
+    }
+    span {
+        font-size: 15px;
+        font-weight: 500;
+        color: $primary-color;
     }
 }

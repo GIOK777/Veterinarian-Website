@@ -59,6 +59,7 @@ header {
 
 main {
     width: 100%;
+    // box-sizing: border-box;
     section.home {
 
         aside.flex-center {
@@ -155,4 +156,197 @@ main {
             }
         }
     }
+
+
+    section.clients {
+        padding: 50px;
+        box-sizing: border-box;
+
+        h2 {
+            text-align: center;
+            font-size: 62px;
+            color: $primary-color;
+            font-weight: 700;
+        }
+        aside {
+            padding-top: 80px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 10px;
+            
+            img {
+                max-width: 100%;
+                padding: 10px;
+            }
+        }
+    }
+
+
+    section.coments {
+        h2 {
+            text-align: center;
+            font-size: 62px;
+            color: $primary-color;
+            font-weight: 700;
+            margin-top: 100px;
+        }
+
+
+        aside.flex-center {
+
+            div.coment {
+                @include coments-contact;
+            }
+        }
+    }
+
+
+
+    section.contact {
+        background-color: $primary-color;
+        h2 {
+            text-align: center;
+            font-size: 62px;
+            color: $white-color;
+            font-weight: 700;
+            margin-top: 100px;
+        }
+        div.info {
+            @include coments-contact($w:160px,$color:$white-color, 
+            $pcolor:$white-color,
+            $h4fs:15px,$h4p:100px 0 10px);
+        }
+
+
+
+
+        form#contact-form {
+            max-width: 800px;
+            div.row {
+
+            
+                div.col-md-6 {
+                    
+                    input {
+                        // max-width: 385px;
+                        border-radius: 0%;
+                        border: none;
+                        border-bottom: 1px solid $white-color;
+                        background: none;
+                    }
+                    input::placeholder {
+                                color: $white-color;
+                                padding-left: 15px;
+                                font-size: 14px;
+                                font-weight: 300;
+                            }
+                }
+
+                div.col-md-12 {
+
+                    textarea {
+                        height: 125px;
+                        border-radius: 0%;
+                        border: none;
+                        background: none;
+                        border-bottom: 1px solid $white-color;
+                    }
+                    textarea::placeholder {
+                                color: $white-color;
+                                font-size: 10px;
+                                padding-left: 15px;
+                    }
+                }
+            }
+            div.text-center.text-md-left {
+                a.btn.btn-primary {
+                    width: 100%;
+                    background: none;
+                    border: none;
+                }
+            }
+
+
+        }
+        
+
+
+    }    
 }
+
+
+
+
+
+
+
+
+
+            
+            // div.col-12 {
+            //     input {
+            //         // max-width: 800px;
+            //         height: 125px;
+            //         border-radius: 0%;
+            //         border: none;
+            //         background: none;
+            //         border-bottom: 1px solid $white-color;
+
+                    // outline: 0;
+                    // border-width: 0 0 2px;
+                    // background: none;
+                    // border-bottom: 1px solid $white-color;
+                // }
+
+            //         button {
+            //             max-width: 100%;
+            //             border: none;
+            //             background: none;
+            //         }
+            //     }
+            // }
+            // div.form {
+            //     text-align: center;
+            //     input {
+            //         width: 385px;
+            //         outline: 0;
+            //         border-width: 0 0 2px;
+            //         border-bottom: 1px solid $white-color;
+            //         background: none;
+            //         margin: 0 15px 30px;
+
+                    
+            //     }
+            //     textarea {
+            //         display: inline-block;
+            //         width: 805px;
+            //         height: 125px;
+            //         outline: 0;
+            //         border-width: 0 0 2px;
+            //         background: none;
+            //         border-bottom: 1px solid $white-color;
+            //     }
+                
+            //     input::placeholder {
+            //         color: $white-color;
+            //         padding-left: 15px;
+            //         font-size: 14px;
+            //         font-weight: 300;
+            //     }
+            //     textarea::placeholder {
+            //         color: $white-color;
+            //         font-size: 10px;
+            //         padding-left: 15px;
+            //     }
+
+            //     button {
+            //         display: block;
+            //         width: 805px;
+            //         height: 43px;
+            //         margin: auto;
+            //         // outline: 0;
+            //         border: none;
+            //         background: none;
+            //         // align-items: center;
+            //         // text-align: center;
+            //     }
