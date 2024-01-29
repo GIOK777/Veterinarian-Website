@@ -1,0 +1,109 @@
+@use "variables" as*;
+@use "mixins" as *;
+
+
+
+@media (max-width: 990px) {
+
+    header {
+        background-color: $primary-color;
+    }
+    main {
+        padding: 100px 0 0;
+
+        section.home {
+            margin-bottom: 100px;
+
+            aside.flex-center {
+                display: inline-block;
+                
+                text-align: center;
+
+
+                article {
+                    h1 {
+                        font-size: c;
+                    }
+                }
+
+
+
+                button {
+                    margin-bottom: 30px;
+                }
+            }
+        }
+
+
+        section.about {
+
+            aside.flex-center {
+                display: inline-block;
+                
+                text-align: center;
+
+                article {
+                    p {
+                        margin: auto;
+                    }
+                    button {
+                        margin: 30px 0;
+                    }
+                }
+            }
+         }
+
+         section.services {
+
+            aside.flex-center {
+                display: inline-block;
+                
+                div.dental_care {
+                    margin: auto;
+                }
+                div.checkup {
+                    margin: auto;
+                }
+                div.grooming {
+                    margin: auto;
+                }
+            }
+
+         }
+
+         section.clients {
+
+            aside {
+                grid-template-columns: 1fr;
+                width: 100%;
+
+                img {
+                    width: 100%;
+                }
+                
+            }                
+         }
+
+        section.coments {
+
+            aside.flex-center {
+                display: inline-block;
+        
+                div.coment {
+                    width: 100%;    
+                }
+            }
+        }
+
+        section.contact {
+            aside.flex-center {
+                display: block;
+               
+                div.info {
+                    text-align: center;
+                    margin: auto;
+                }
+            }
+        }
+    }
+}

@@ -59,13 +59,13 @@ header {
 
 main {
     width: 100%;
-    // box-sizing: border-box;
+    padding-top: 100px;
     section.home {
 
         aside.flex-center {
             width: 100%;
             height: 900px;
-            padding-top: 100px;
+            
             background-color: $background-color;
             article {
                 h1 {
@@ -226,7 +226,6 @@ main {
                 div.col-md-6 {
                     
                     input {
-                        // max-width: 385px;
                         border-radius: 0%;
                         border: none;
                         border-bottom: 1px solid $white-color;
@@ -318,7 +317,7 @@ main {
                 }
             }
         }       
-}
+    }
 }
 
 footer.flex-center {
@@ -332,75 +331,3 @@ footer.flex-center {
     }
 }
 
-
-
-
-
-            
-            // div.col-12 {
-            //     input {
-            //         // max-width: 800px;
-            //         height: 125px;
-            //         border-radius: 0%;
-            //         border: none;
-            //         background: none;
-            //         border-bottom: 1px solid $white-color;
-
-                    // outline: 0;
-                    // border-width: 0 0 2px;
-                    // background: none;
-                    // border-bottom: 1px solid $white-color;
-                // }
-
-            //         button {
-            //             max-width: 100%;
-            //             border: none;
-            //             background: none;
-            //         }
-            //     }
-            // }
-            // div.form {
-            //     text-align: center;
-            //     input {
-            //         width: 385px;
-            //         outline: 0;
-            //         border-width: 0 0 2px;
-            //         border-bottom: 1px solid $white-color;
-            //         background: none;
-            //         margin: 0 15px 30px;
-
-                    
-            //     }
-            //     textarea {
-            //         display: inline-block;
-            //         width: 805px;
-            //         height: 125px;
-            //         outline: 0;
-            //         border-width: 0 0 2px;
-            //         background: none;
-            //         border-bottom: 1px solid $white-color;
-            //     }
-                
-            //     input::placeholder {
-            //         color: $white-color;
-            //         padding-left: 15px;
-            //         font-size: 14px;
-            //         font-weight: 300;
-            //     }
-            //     textarea::placeholder {
-            //         color: $white-color;
-            //         font-size: 10px;
-            //         padding-left: 15px;
-            //     }
-
-            //     button {
-            //         display: block;
-            //         width: 805px;
-            //         height: 43px;
-            //         margin: auto;
-            //         // outline: 0;
-            //         border: none;
-            //         background: none;
-            //         // align-items: center;
-            //         // text-align: center;
-            //     }
