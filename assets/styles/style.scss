@@ -183,6 +183,7 @@ main {
 
 
     section.coments {
+        margin-bottom: 200px;
         h2 {
             text-align: center;
             font-size: 62px;
@@ -209,16 +210,13 @@ main {
             font-size: 62px;
             color: $white-color;
             font-weight: 700;
-            margin-top: 100px;
+            padding-top: 100px;
         }
         div.info {
             @include coments-contact($w:160px,$color:$white-color, 
             $pcolor:$white-color,
             $h4fs:15px,$h4p:100px 0 10px);
         }
-
-
-
 
         form#contact-form {
             max-width: 800px;
@@ -235,8 +233,7 @@ main {
                         background: none;
                     }
                     input::placeholder {
-                                color: $white-color;
-                                padding-left: 15px;
+                                color: $white-color;                              
                                 font-size: 14px;
                                 font-weight: 300;
                             }
@@ -254,7 +251,6 @@ main {
                     textarea::placeholder {
                                 color: $white-color;
                                 font-size: 10px;
-                                padding-left: 15px;
                     }
                 }
             }
@@ -263,20 +259,78 @@ main {
                     width: 100%;
                     background: none;
                     border: none;
+                    font-size: 15px;
+                    font-weight: 300;
                 }
             }
-
-
         }
-        
 
+        div.contact-icons.flex-center {
+            padding: 100px 0 50px;
+            gap: 20px;
+            i {
+                color: $white-color;
+                // text-align: center;
+                // align-items: center;
+            }
+        }   
 
     }    
+
+
+    section.about-page {
+
+        h2 {
+            padding-top: 200px;
+            text-align: center;
+            font-size: 62px;
+            font-weight: 700;
+            color: $primary-color;
+        }
+        aside.flex-center {
+            width: 100%;
+            height: 730px;
+            background-color: $white-color;
+
+            img {
+                border-radius: 50%;
+            }
+            
+            article {
+                margin-top: -150px;
+                h3 {
+                    width: 290px;
+                    height: 50px;
+                    font-size: 22px;
+                    font-weight: 600;
+                    font-family: $primary-font;
+                    color: $primary-color;
+                    margin-bottom: 30px;
+                }
+
+                p {
+                    width: 385px;
+                    height: 142px;
+                    font-size: 14px;
+                    font-weight: 300;
+                    color: $primary-color;
+                    line-height: 1.8;
+                }
+            }
+        }       
+}
 }
 
-
-
-
+footer.flex-center {
+    max-width: 100%;
+    height: 50px;
+    background-color: $white-color;
+    
+    span {
+        font-size: 12px;
+        color: $primary-color;
+    }
+}
 
 
 

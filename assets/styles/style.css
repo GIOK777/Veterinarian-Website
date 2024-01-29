@@ -223,6 +223,9 @@ main section.clients aside img {
   max-width: 100%;
   padding: 10px;
 }
+main section.coments {
+  margin-bottom: 200px;
+}
 main section.coments h2 {
   text-align: center;
   font-size: 62px;
@@ -260,7 +263,7 @@ main section.contact h2 {
   font-size: 62px;
   color: #FFFFFF;
   font-weight: 700;
-  margin-top: 100px;
+  padding-top: 100px;
 }
 main section.contact div.info {
   width: 160px;
@@ -295,7 +298,6 @@ main section.contact form#contact-form div.row div.col-md-6 input {
 }
 main section.contact form#contact-form div.row div.col-md-6 input::placeholder {
   color: #FFFFFF;
-  padding-left: 15px;
   font-size: 14px;
   font-weight: 300;
 }
@@ -309,12 +311,65 @@ main section.contact form#contact-form div.row div.col-md-12 textarea {
 main section.contact form#contact-form div.row div.col-md-12 textarea::placeholder {
   color: #FFFFFF;
   font-size: 10px;
-  padding-left: 15px;
 }
 main section.contact form#contact-form div.text-center.text-md-left a.btn.btn-primary {
   width: 100%;
   background: none;
   border: none;
+  font-size: 15px;
+  font-weight: 300;
+}
+main section.contact div.contact-icons.flex-center {
+  padding: 100px 0 50px;
+  gap: 20px;
+}
+main section.contact div.contact-icons.flex-center i {
+  color: #FFFFFF;
+}
+main section.about-page h2 {
+  padding-top: 200px;
+  text-align: center;
+  font-size: 62px;
+  font-weight: 700;
+  color: #3A54B4;
+}
+main section.about-page aside.flex-center {
+  width: 100%;
+  height: 730px;
+  background-color: #FFFFFF;
+}
+main section.about-page aside.flex-center img {
+  border-radius: 50%;
+}
+main section.about-page aside.flex-center article {
+  margin-top: -150px;
+}
+main section.about-page aside.flex-center article h3 {
+  width: 290px;
+  height: 50px;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: "Work Sans", sans-serif;
+  color: #3A54B4;
+  margin-bottom: 30px;
+}
+main section.about-page aside.flex-center article p {
+  width: 385px;
+  height: 142px;
+  font-size: 14px;
+  font-weight: 300;
+  color: #3A54B4;
+  line-height: 1.8;
+}
+
+footer.flex-center {
+  max-width: 100%;
+  height: 50px;
+  background-color: #FFFFFF;
+}
+footer.flex-center span {
+  font-size: 12px;
+  color: #3A54B4;
 }
 
 /*# sourceMappingURL=style.css.map */
