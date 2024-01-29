@@ -102,5 +102,29 @@
                 }
             }
         }
+
+
+        section.about-page {
+
+            aside.flex-center {
+                display: inline-block;
+                text-align: center;
+
+                article {
+                    h3 {
+                        margin: auto;
+                        margin-top: 200px;
+                    }
+                    p {
+                        margin: auto;
+                    }
+                    button {
+                        margin: 30px 0;
+                    }
+                }
+            }
+        }
     }
+
+
 }
