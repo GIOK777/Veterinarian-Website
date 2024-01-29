@@ -10,7 +10,7 @@
     text-align: center;
   }
   main section.home aside.flex-center article h1 {
-    font-size: c;
+    padding-top: 30px;
   }
   main section.home aside.flex-center button {
     margin-bottom: 30px;
