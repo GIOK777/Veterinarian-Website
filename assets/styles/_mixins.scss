@@ -47,6 +47,9 @@ $fz: 14px, $fw: 300, $td: none) {
     img {
         border-radius: 50%;
     }
+    img:hover {
+        opacity: 0.8;
+    }
 }
 
 

@@ -165,6 +165,9 @@ main section.services aside.flex-center div.dental_care p {
 main section.services aside.flex-center div.dental_care img {
   border-radius: 50%;
 }
+main section.services aside.flex-center div.dental_care img:hover {
+  opacity: 0.8;
+}
 main section.services aside.flex-center div.checkup {
   width: 250px;
   height: 400px;
@@ -183,6 +186,9 @@ main section.services aside.flex-center div.checkup p {
 }
 main section.services aside.flex-center div.checkup img {
   border-radius: 50%;
+}
+main section.services aside.flex-center div.checkup img:hover {
+  opacity: 0.8;
 }
 main section.services aside.flex-center div.grooming {
   width: 250px;
@@ -203,6 +209,9 @@ main section.services aside.flex-center div.grooming p {
 main section.services aside.flex-center div.grooming img {
   border-radius: 50%;
 }
+main section.services aside.flex-center div.grooming img:hover {
+  opacity: 0.8;
+}
 main section.clients {
   padding: 50px;
   box-sizing: border-box;
@@ -222,6 +231,9 @@ main section.clients aside {
 main section.clients aside img {
   max-width: 100%;
   padding: 10px;
+}
+main section.clients aside img:hover {
+  opacity: 0.8;
 }
 main section.coments {
   margin-bottom: 200px;
@@ -289,6 +301,9 @@ main section.contact div.info span {
 }
 main section.contact form#contact-form {
   max-width: 800px;
+}
+main section.contact form#contact-form div.row {
+  border: none;
 }
 main section.contact form#contact-form div.row div.col-md-6 input {
   border-radius: 0%;
